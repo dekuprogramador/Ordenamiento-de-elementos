@@ -26,7 +26,6 @@ public class Ordenador {
                         numordenados.set(j+1, temp);
                     }
                 }
-                System.out.println("" +numordenados);
             }
 
             FileWriter escritor = new FileWriter("resultadosordenados.txt");
